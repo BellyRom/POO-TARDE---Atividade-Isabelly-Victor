@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: rgba(253, 241, 241, 0.801);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    height: 250px;
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #47b8fa1a ;
+    border-radius: 10px;
+}
+
+.card:hover{
+
+    box-shadow: 4px 4px 10px rgb(2, 12, 56);
+    transform: scale(1.1);
+    transition: ease-in-out 250ms;
+    filter: opacity(1);
+}
+
+.foto{
+    width: 170px;
+    height: 150px;
+    margin: 15px;
+    object-fit:fill;
+}
+
+.nome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-decoration:underline 2px rgb(207, 84, 156);
+    margin: 15px;
+    text-align: center;
+}
+
+.idade{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(35, 48, 107);
+}
+
+.cidade{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(35, 48, 107);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Alunos </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <form action="#">
+        <div>
+            <label for="">Primeiro Nome </label>
+            <input id="iptPrimeiroNome" type="text">
+        </div>
+
+        <div>
+            <label for="">Último Nome </label>
+            <input id="iptUltimoNome" type="text">
+        </div>
+
+        <div>
+            <label for="">Data de Nascimento </label>
+            <input id="iptDataDeNascimento" type="date">
+        </div>
+        
+        <div>
+            <label for="">Cidade </label>
+            <input id="iptCidade" type="text">
+        </div>
+        
+        <button id = "btnCadastrar">Cadastrar Aluno</button>
+    </form>
+
+    <div id="containerDeCards" class="container"></div>
+
+    <script src="classes.js"></script>
+   <script src="programa.js"></script>
+    <script src="controlador.js"></script>
+    <script src="designer.js"></script>
+   
+</body>
+</html>
